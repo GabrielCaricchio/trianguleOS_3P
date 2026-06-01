@@ -59,3 +59,32 @@
 </div>
 
 ---
+
+## 🚀 Como Executar
+
+Certifique-se de ter o Python 3 instalado em sua máquina.
+
+1.  Clone este repositório:
+    ```bash
+    git clone https://github.com/GabrielCaricchio/trianguleOS_3P.git
+    ```
+2.  Navegue até a pasta do projeto:
+    ```bash
+    cd trianguleOS
+    ```
+3.  Execute o Kernel:
+    ```bash
+    ./trianguleOS
+    ```
+---
+
+## 🛠️ Comandos do Shell (User Space)
+
+| Comandos                      |       Descrição:
+|
+| kill <pid>                          - Encerra um processo
+| cpu                                 - Exibe informacoes sobre a CPU
+| lock <pid> <1(Imp) ou 2(Disco)>     - Bloqueia um recurso
+| unlock <pid> <1(Imp) ou 2(Disco)>   - Desbloqueia um recurso
+| help                                - Exibe esta mensagem de ajuda
+| exit                                - Encerra o simulador
