@@ -273,7 +273,7 @@ int main() {
             printf("  spawn <nome> - Cria um novo processo\n");
             printf("  ps - Lista todos os processos\n");
             printf("  kill <pid> - Encerra um processo\n");
-            printf("  cpu - Exibe informacoes sobre a CPU\n");
+            printf("  cpu - Este comando avança o relógio do sistema\n");
             printf("  lock <pid> <1(Imp) ou 2(Disco)> - Bloqueia um recurso\n");
             printf("  unlock <pid> <1(Imp) ou 2(Disco)> - Desbloqueia um recurso\n");
             printf("  help - Exibe esta mensagem de ajuda\n");

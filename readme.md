@@ -81,9 +81,10 @@ Certifique-se de ter o Python 3 instalado em sua máquina.
 ## 🛠️ Comandos do Shell (User Space)
 ```
 | Comandos                          |    Descrição:
-|                                   |   
+| spawn <nome>                      |  - Cria um novo processo
+| ps                                |  - Lista todos os processos
 | kill <pid>                        |  - Encerra um processo
-| cpu                               |  - Exibe informacoes sobre a CPU
+| cpu                               |  - Este comando avança o relógio do sistema
 | lock <pid> <1(Imp) ou 2(Disco)>   |  - Bloqueia um recurso
 | unlock <pid> <1(Imp) ou 2(Disco)> |  - Desbloqueia um recurso
 | help                              |  - Exibe esta mensagem de ajuda
