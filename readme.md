@@ -59,6 +59,9 @@
 </div>
 
 ---
+## Demonstração do simulador:
+
+![trianguleOS](./trianguleOS.mp4)
 
 ## 🚀 Como Executar
 
