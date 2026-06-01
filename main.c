@@ -267,6 +267,19 @@ int main() {
             if (nome) cmd_spawn(nome);
             else printf("Uso correto: spawn <nome>\n");
         }
+
+        else if (strcmp(cmd, "help") == 0) {
+            printf("Comandos disponiveis:\n");
+            printf("  spawn <nome> - Cria um novo processo\n");
+            printf("  ps - Lista todos os processos\n");
+            printf("  kill <pid> - Encerra um processo\n");
+            printf("  cpu - Exibe informacoes sobre a CPU\n");
+            printf("  lock <pid> <1(Imp) ou 2(Disco)> - Bloqueia um recurso\n");
+            printf("  unlock <pid> <1(Imp) ou 2(Disco)> - Desbloqueia um recurso\n");
+            printf("  help - Exibe esta mensagem de ajuda\n");
+            printf("  exit - Encerra o simulador\n");
+        }
+
         else if (strcmp(cmd, "ps") == 0) {
             cmd_ps();
         }
