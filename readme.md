@@ -14,7 +14,7 @@
   </table>
 
   <h4>Turma: SI 3°P manhã</h4>
-  <h4>Sistema: KernelC (Simulador de SO feito com C)</h4>
+  <h4>Sistema: trianguleOS (Simulador de SO feito com C)</h4>
   <h4>Equipe:</h4>
 
   <table style="white-space: nowrap; display: inline-block; max-width: 100%; overflow-x: auto;">
