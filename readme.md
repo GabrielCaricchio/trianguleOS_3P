@@ -23,35 +23,35 @@
         <a href="https://github.com/Daniel-Willian-Silva">
           <img src="https://avatars.githubusercontent.com/u/229531037?v=4" width="100px;" alt="Daniel Willian da Silva"/><br />
           <sub><b>Daniel Willian da Silva</b></sub><br />
-          <sub>Matrícula: 01831927</sub>
+          <sub><b>Matrícula: 01831927</b></sub>
         </a>
       </td>
       <td align="center" valign="top" style="min-width: 180px; max-width: 220px; padding: 10px;">
         <a href="https://github.com/GabrielCaricchio">
           <img src="https://avatars.githubusercontent.com/u/235008081?v=4" width="100px;" alt="Gabriel Arruda Caricchio"/><br />
           <sub><b>Gabriel Arruda Caricchio</b></sub><br />
-          <sub>Matrícula: 01824947</sub>
+          <sub><b>Matrícula: 01824947</b></sub>
         </a>
       </td>
       <td align="center" valign="top" style="min-width: 180px; max-width: 220px; padding: 10px;">
         <a href="https://github.com/Ingrid-Motta06">
           <img src="https://avatars.githubusercontent.com/u/229673223?v=4" width="100px;" alt="Ingrid Motta Santos"/><br />
           <sub><b>Ingrid Motta Santos</b></sub><br />
-          <sub>Matrícula: 01834701</sub>
+          <sub><b>Matrícula: 01834701</b></sub>
         </a>
       </td>
       <td align="center" valign="top" style="min-width: 180px; max-width: 220px; padding: 10px;">
         <a href="https://github.com/marcosmatheus1828-dotcom">
           <img src="https://avatars.githubusercontent.com/u/228708069?v=4" width="100px;" alt="Marcos Matheus gomes Nerys"/><br />
           <sub><b>Marcos Matheus gomes Nerys</b></sub><br />
-          <sub>Matrícula: 01779978</sub>
+          <sub><b>Matrícula: 01779978</b></sub>
         </a>
       </td>
       <td align="center" valign="top" style="min-width: 180px; max-width: 220px; padding: 10px;">
         <a href="https://github.com/Subaru21-bot">
           <img src="https://avatars.githubusercontent.com/u/239859485?v=4" width="100px;" alt="Pedro Henrique Rodrigues da Silva"/><br />
           <sub><b>Pedro Henrique Rodrigues da Silva</b></sub><br />
-          <sub>Matrícula: 01794091</sub>
+          <sub><b>Matrícula: 01794091</b></sub>
         </a>
       </td>
     </tr>
