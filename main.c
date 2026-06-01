@@ -21,6 +21,17 @@ typedef struct {
     int recurso_esperado; 
 } PCB;
 
+// Protótipos
+void cmd_spawn(char* nome);
+void cmd_ps();
+void cmd_kill(int pid);
+void cmd_lock(int pid, int recurso);
+void cmd_unlock(int pid, int recurso);
+void cmd_cpu();
+void verificar_deadlock();
+int encontrar_processo(int pid);
+const char* estado_para_string(Estado e);
+
 // Memória RAM Simulada
 PCB tabela_processos[MAX_PROCESSES];
 int next_pid = 1;
@@ -97,15 +108,15 @@ void cmd_ps() {
 }
 
 // Requisito 3: kill <pid>
+// Requisito 3: kill <pid> (Versão Refinada com Segurança de Mutex)
 void cmd_kill(int pid) {
     int idx = encontrar_processo(pid);
     if (idx != -1) {
+        // Correção: Aciona o unlock adequado para repassar o recurso antes de morrer
+        if (impressora_lock == pid) cmd_unlock(pid, 1);
+        if (disco_lock == pid) cmd_unlock(pid, 2);
+        
         tabela_processos[idx].pid = 0; // Remoção Lógica
-        
-        // Libera os locks se o processo for morto
-        if (impressora_lock == pid) impressora_lock = 0;
-        if (disco_lock == pid) disco_lock = 0;
-        
         printf("[Sistema] Processo PID %d removido logicamente da Tabela.\n", pid);
     } else {
         printf("[Erro] PID nao encontrado.\n");
