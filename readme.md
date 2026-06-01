@@ -79,7 +79,7 @@ Certifique-se de ter o Python 3 instalado em sua máquina.
 ---
 
 ## 🛠️ Comandos do Shell (User Space)
-
+```
 | Comandos                      |       Descrição:
 |
 | kill <pid>                          - Encerra um processo
@@ -88,3 +88,4 @@ Certifique-se de ter o Python 3 instalado em sua máquina.
 | unlock <pid> <1(Imp) ou 2(Disco)>   - Desbloqueia um recurso
 | help                                - Exibe esta mensagem de ajuda
 | exit                                - Encerra o simulador
+```
